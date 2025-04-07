@@ -1,2 +1,2 @@
 # ilcerchio-project
-Web Design exam 
+Web Design test project 
