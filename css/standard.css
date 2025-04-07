@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Dokument mit standard Formaten für die Eigenschaftstabellen */
+
+*{box-sizing: border-box}
+
+body { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:100%;
+        background-color: rgba(0,0,0,1.00);}
+table, th, td	{ border:3px solid #001463;} 
+table	{ width:43.75em;}	
+ul	{ font-size:large;}
+th{ background-color:#dedede;}
+.schrift	{ font-size:16px;}
+
+#content{
+	max-width: 100%;
+	max-height: 80rem;
+	display: flex;
+	gap: 4rem;
+	justify-content: center;
+	margin-top: 3rem;
+	background-image: url("../img/bg_clock.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	line-height: 0.5rem;
+}
+    
+p {
+    margin: 0;
+    padding: 0;
+}
+#dat_uhr{background-color: rgba(136,237,43,0.00);
+float: right;}

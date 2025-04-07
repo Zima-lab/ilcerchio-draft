@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document about*/
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(38, 66, 54, 0.6) 0%, rgba(144, 80, 68, 0.6) 100%), url("../assets/img/slide4.jpg");
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+	background-size: cover;}
+  
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    max-height: 45rem;
+    padding-top: 7rem;
+    padding-bottom: 0;
+  }
+}
+
+
+#bg-text{
+	background-color: rgba(38, 66, 54, 0.80);
+	color: rgba(232,232,232,1.00);
+	height: 50rem;
+	width: 80vw;
+	align-content: center;
+	margin-bottom: 5rem;
+}
+
+.text-about{
+	font-family: "Blacker Sans Pro";
+	text-align: left;
+	line-height: 140%;
+	background-color: rgba(38, 66, 54, 0.80);;
+   padding: 2rem;
+}
+.carousel {
+	background-color: aquamarine;
+	width: 100vw;}
+
+
+.text-about::first-letter {
+  font-size: 2rem;
+  margin-right: 0.1em;
+}
+
+@media (min-width: 992px){
+footer.bg-light.py-5{margin-top: 12rem;}}
+
+
+
+

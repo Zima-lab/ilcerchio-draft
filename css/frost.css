@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document für kalte Tage "Frost" */
+
+#wrapper{
+	background-color: rgba(79,154,215,1.00);
+	background-image: url("../img_pic/blaetter_im_frost.jpg");/**/
+	background-size: cover;
+	background-position: center;/**/
+}
+
+.frost_header{background-color: rgba(227,244,106,0.49);
+height: 22%;  /* 110 / 500 = 0.22 */
+text-align: center;
+font-size: 300%;
+padding-top: 6%;
+position: relative;
+overflow: hidden;/**/
+}
+
+.banner{background-color: rgba(253,253,253,0.60);
+font-size: 50%;
+width: 100%;	
+position: absolute;
+left:43%;
+top:27.27%;
+transform: rotate(45deg);/**/
+}
+
+
+.frost_navi{background-color: rgba(191,5,8,0.64);
+width:50%;
+padding: 0.625rem; 
+margin-top: 28%;
+margin-left: 50%;/**/	
+}
+
+.frost_navi a{background-color: rgba(231,231,231,0.41);
+display:block;
+padding: 0.3125rem 0.625rem;
+margin-bottom: 0.625rem;
+border-radius: 0.3125rem; 
+color:#fff;
+text-decoration: none;
+transition:padding-left 0.5s;
+/**/
+}
+
+.frost_navi a:hover{
+padding-left: 12%;
+	/**/
+}
+
+.frost_navi a:nth-last-of-type(1){
+	margin-bottom: 0;/**/
+}
+
+
+
+
+

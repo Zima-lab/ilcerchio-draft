@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document BUTTONS*/
+
+
+.button_2 {
+  font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: rgba(39,3,36,0.80);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  border: 0.1875rem solid rgba(222,175,230,1.00);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-height: 10rem;
+  max-width:  30rem;
+  background-color:  rgba(235,139,219,0.60);
+  margin-bottom: 10%;
+  text-decoration: none;
+}
+
+
+
+
+
+.button_2:hover {
+  box-shadow: 0.3125rem 10px rgba(228,168,231,1.00);
+	border: 0.1875rem solid rgba(47,4,55,1.00);
+  border-radius: 1rem;
+  top: 0.3125rem;
+  left: 0.3125rem;
+  background-color: rgba(236,189,228,1.00);
+  }
+
+.button_2:active {
+  box-shadow: 0.3125rem 10px rgba(228,168,231,1.00);
+  border: 0.1875rem solid rgba(47,4,55,1.00);
+  border-radius: 1rem;
+  top: 0.3125rem;
+  left: 0.3125rem;
+  background-color: rgba(236,189,228,1.00);
+  }
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  animation-fill-mode: both;
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+

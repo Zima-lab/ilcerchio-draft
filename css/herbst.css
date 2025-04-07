@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document für das Beispiel: Herbst */
+
+*		{ box-sizing:border-box;}
+
+
+body	{ background-color:#dedede;
+font: 100% "Trebuchet MS", Verdana, sans-serif;}
+
+#wrapper_bg{ background-color: rgba(4,37,58,0.87);
+position: relative;	
+width:31.25rem;
+height:31.25rem;
+padding: 1rem;
+margin:3.125rem auto;
+overflow: hidden;
+}
+
+
+#wrapper{ background-color:rgba(244,203,84,1.00);
+background-image: url("../img/herbst.jpg");
+background-position: center;
+background-size: cover;
+width:31.25rem;
+height:31.25rem;
+padding: 1rem;
+margin:3.125rem auto;/**/
+}	
+
+h1, h3{color:#fff;
+margin: 0;}
+
+h1{background-color: rgba(9,142,24,0.5);
+margin: 0;
+/*-webkit-text-stroke:5px #fff;	*/}
+
+/*h3{background-color: rgba(9,73,142,0.40);
+margin: 0;}*/
+
+nav{background-color: rgba(247,127,224,0.45);
+width: 50%;	
+padding: 1rem;
+margin-left: 50%;/**/
+
+}
+
+nav a{background-color: rgba(234,240,14,1.00);
+display: block;
+text-align: right;	
+padding: 0.5rem;
+margin-bottom: 1rem;
+text-decoration: none;
+transition:padding-right 0.5s, 
+background-color 0.5s, color 0.5s;	/**/
+}
+
+nav a:hover{padding-right: 2.5rem;
+background-color: rgba(84,155,240,0.53);
+color:#fff;/**/
+}
+
+nav a:nth-last-of-type(1){margin-bottom: 0;}
+
+/* #############!!! Text mit Bg-Image !!!############## */
+
+#wrapper_bg h1{font-size: 11rem;
+font-family: Impact;
+text-transform: uppercase;	
+/*line-height: 10rem;*/}
+
+#wrapper_bg h1, #wrapper_bg h3{color: transparent;/**/
+background-clip: text;
+background-image: url("../img/herbst.jpg");
+background-position: top right;/**/
+}
+
+
+/* #############!!! Container verschachtelt !!!############## */
+
+.innen01{width: 100%;
+height: 100%;
+background-image: url("../img/herbst.jpg");
+opacity: 0.5;
+transform: rotate(-45deg);
+color:#fff;
+font-weight: 900;/**/}
+
+.innen02{ background-color: rgba(52,128,5,0.60);
+width: 100%;
+height: 100%;
+padding: 2rem;	
+position: absolute;
+top:0;
+left:0;/**/}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document product*/
+
+header.masthead {
+  padding-top: 15rem;
+  padding-bottom: calc(15rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(38, 66, 54, 0.6) 0%, rgba(144, 80, 68, 0.6) 100%), url("../assets/img/slide6.jpg");
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+	background-size: cover;}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 200rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+}
+
+/*#valmarina:target{margin--top: 41rem;}*/
+#ansonica:target{padding-top: 21rem;}
+#altro:target{padding-top: 21rem;}
+#dolcea:target{padding-top: 21rem;}
+#olio:target{padding-top: 21rem;}
+#aceto:target{padding-top: 21rem;}
+
+
+.figure-caption {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.italic-sans{
+	font-family: "Blacker Sans Pro Book Italic";
+}
+
+.form_elemente h1{
+	text-align: center;
+}
+
+  .product-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 248, 240, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  .product-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .product-text {
+    flex: 1;
+    padding: 20px;
+  }
+
+
+.bgproduct{
+	background-color: rgba(250,235,215,0.90);
+	padding: 5rem;
+	min-height: 100vh; /* Assicura che il contenitore sia almeno dell'altezza della finestra */
+    
+}
+
+.bgproduct h2,h6{
+	font-family: "Blacker Pro Text Light";
+}
+
+section {
+    margin-bottom: 80px; /* Aumenta lo spazio tra le sezioni */
+}
+
+.container.bgproduct {
+    flex: 1; /* Occupa tutto lo spazio disponibile, spingendo il footer in basso */
+}
+
+
+.container.bgproduct {
+    flex: 1; /* Permette al contenuto di espandersi */
+}
+
+footer {
+    margin-top: auto; /* Spinge il footer in basso */
+}
+.bg-light{
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20);
+}
+
+/*STICKY and  PRODUCT LIST*/
+  .navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+.sticky {
+  position: fixed;
+  top: 4rem;
+  width: 100vw;
+}
+
+.sticky + .content {
+  padding-top: 5rem;
+	opacity: 1;
+}
+/*ENDE_____STICKY and  PRODUCT LIST____*/
